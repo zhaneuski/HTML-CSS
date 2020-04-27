@@ -1,0 +1,19 @@
+
+
+.chess {
+border: 1px solid black;
+border-spacing: 0;
+}
+
+.chess tr td {
+    width: 100px;
+    height: 100px;
+}
+
+.chess tr:nth-child(odd) td:nth-child(odd) {
+    background-color: black;
+}
+
+.chess tr:nth-child(even) td:nth-child(even) {
+background-color: black;
+}
