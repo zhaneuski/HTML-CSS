@@ -1,0 +1,145 @@
+body {
+    font-family: sans-serif;
+    max-height: 1750px;
+}
+
+#menu {
+    background-color: rgb(43, 33, 33);
+    color: white;
+}
+
+#menu img {
+    width: 50px;
+    display: block;
+    margin: 30px auto;
+    padding-top: 20px;
+}
+
+#menu ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+
+#menu ul li {
+    border-bottom: 1px solid black;
+}
+
+#menu ul li:first-child {
+    border-top: 1px solid black;
+}
+
+#menu ul li span {
+    margin-left: 30px;
+    display: block;
+    padding: 10px 10px;
+}
+
+#content {
+    background-color: rgb(196, 223, 224);
+    height: 100%;
+    padding-bottom: 50px;
+}
+
+#content h1 {
+    margin-left: 40px;
+    padding-top: 30px;
+    font-size: 1.5rem;
+    margin-top: 0;
+
+}
+
+#box1, #box2 {
+    width: auto;
+    height: auto;
+    background-color: rgb(222, 245, 220);
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-bottom: 20px;
+    margin-bottom: 50px;
+}
+
+#box1 #img1, #box2 #img2 {
+    width: 180px;
+    margin: auto;
+}
+  
+h2 {
+    font-size: 1.2rem;
+    padding: 30px 20px;
+    margin: 0;
+}
+
+#box1 #img1 img, #box2 #img2 img {
+    width: 100%;
+    display: block;
+}
+
+#box3 {
+    width: auto;
+    height: auto;
+    background-color: rgb(222, 245, 220);
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-bottom: 20px;
+}
+
+#box3 table {
+    font-size: 0.8rem;
+    width: 80%;
+    margin: auto;
+    text-align: left;
+}
+
+table thead tr th, table tbody tr td {
+    padding: 5px 10px 5px 0;
+}
+
+
+@media screen and (min-width:600px) {
+    
+    body {
+        font-family: sans-serif;
+        height: 700px;
+    }
+
+    #menu {
+        width: 25%;
+        float: left;
+        font-size: 0.7rem;
+        height: 900px;
+    }
+
+    #menu ul li span {
+        margin-left: 10px;
+        padding: 15px 15px;
+    }
+
+    #content {
+        float: left;
+        width: 75%;
+        height: 850px;
+    }
+
+    #box1 {
+        float: left;
+        width: 43%;
+        margin-left: 20px;
+        margin-right: 5px;
+    }
+    #box2 {
+        float: left;
+        width: 43%;
+        margin-left: 5px;
+        margin-right: 20px;
+    }
+
+    #box3 {
+        width: auto;
+        height: auto;
+        margin: 0 20px;
+        float: left;
+    }
+
+}

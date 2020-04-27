@@ -1,0 +1,45 @@
+#first {
+    width: 700px;
+    height: 200px;
+    position: absolute;
+    left: 200px;
+    top: 300px;
+    z-index: 1;
+}
+
+#div1 {
+    position: absolute;
+    width: 350px;
+    height: 200px;
+    top: 0;
+    left: 0;
+}
+
+p {
+    position: absolute;
+    top: 80px;
+    left: 120px;
+}
+
+#div2, img {
+    position: absolute;
+    width: 350px;
+    height: 200px;
+    top: 0;
+    right: 0;
+}
+
+#first:hover #div2 img {
+    transition-duration: 1s;
+    transform: scale(1.5);
+}
+
+#first:hover #div2 {
+    overflow: hidden;
+}
+
+#first:hover {
+    opacity: 0.7;
+    background-color: rgb(92, 91, 91);
+    transition-duration: 0.3s;
+}

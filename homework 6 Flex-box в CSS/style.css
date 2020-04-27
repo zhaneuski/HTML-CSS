@@ -1,0 +1,79 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    
+}
+
+h2 {
+    font-size: 1.2rem;
+}
+
+p, h2 {
+    margin: 1rem;
+}
+
+img {
+    width: 100%;
+}
+
+.container div {
+    background-color: rgb(231, 231, 231);
+}
+
+
+
+.container {
+    padding: 2rem 4rem 5rem 2rem;
+    background-color: rgb(168, 200, 248);
+    width: 80vw;
+    margin: 0 auto;
+    display: grid;
+    grid-gap: 2rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "first second third"
+    "first fifth third"
+    "first fifth sixth"
+    "fourth fifth sixth"
+    "seventh eighth sixth"
+    "seventh eighth ninth"
+    ". eighth ninth"
+    ". . ninth"
+    ;
+}
+
+.first {
+    grid-area: first;
+}
+
+.second {
+    grid-area: second;
+}
+
+.third {
+    grid-area: third;
+}
+
+.fourth {
+    grid-area: fourth;
+}
+
+.fifth {
+    grid-area: fifth;
+}
+
+.sixth {
+    grid-area: sixth;
+}
+
+.seventh {
+    grid-area: seventh;
+}
+
+.eighth {
+    grid-area: eighth;
+}
+
+.ninth {
+    grid-area: ninth;
+}

@@ -1,0 +1,29 @@
+#border {
+    border: 5px solid orange;
+    width: 600px;
+    height: 100px;
+}
+
+#square {
+    width: 100px;
+    height: 100px;
+    animation-name: animated-square;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+    background-color: orange;
+    animation-timing-function: linear;
+}
+
+@keyframes animated-square {
+    from {
+        margin-left: 0;
+        margin-top: 0;
+    }
+
+    to {
+        margin-left: 500px;
+        margin-top: 0;
+    }
+
+
+}

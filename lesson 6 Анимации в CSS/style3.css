@@ -1,0 +1,152 @@
+h1 {
+    position: absolute;
+    left: 25%;
+    top: 100px;
+    text-transform: uppercase;
+}
+
+.images1 {
+    position: absolute;
+    width: 150px;
+}
+
+
+.images2 {
+    position: absolute;
+    width: 120px;
+
+}
+
+#calc {
+    top: 700px;
+    left: 100px;
+    animation-name: calc;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-delay: 0.5s;
+    opacity: 0;
+}
+
+#book {
+    top: 700px;
+    left: 280px;
+    animation-name: book;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-delay: 2.5s;
+    opacity: 0;
+}
+
+#paper {
+    top: 700px;
+    left: 460px;
+    animation-name: paper;
+    animation-duration: 2s;
+    animation-delay: 4.5s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+#pallete {
+    top: 700px;
+    left: 640px;
+    animation-name: pallete;
+    animation-delay: 6.5s;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+    transform: rotateZ(180deg);
+}
+
+#pencil {
+    top: 700px;
+    left: 30%;
+    animation-name: pencil;
+    transform: rotate(90deg);
+    animation-delay: 8.5s;
+    animation-duration: 2s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+
+@keyframes calc {
+    from {
+        top: 700px;
+        left: 100px;
+        opacity: 0;
+    }
+
+    to {
+        top: 400px;
+        left: 100px;
+        opacity: 1;
+        transform: rotateZ(-30deg);
+    }
+}
+
+@keyframes book {
+    from {
+        top: 700px;
+        left: 280px;
+        opacity: 0;
+    }
+
+    to {
+        top: 315px;
+        left: 280px;
+        opacity: 1;
+        transform: rotateZ(-10deg);
+    }
+}
+
+@keyframes paper {
+    from {
+        top: 700px;
+        left: 460px;
+        opacity: 0;
+    }
+
+    to {
+        top: 315px;
+        left: 460px;
+        opacity: 1;
+        transform: rotateZ(10deg);
+    }
+}
+
+@keyframes pallete {
+    from {
+        top: 700px;
+        left: 640px;
+        opacity: 0;
+    }
+
+    to {
+        top: 400px;
+        left: 640px;
+        opacity: 1;
+        transform: rotateZ(210deg);
+    }
+}
+
+
+@keyframes pencil {
+    from {
+        top: 700px;
+        left: 30%;
+        opacity: 0;
+    }
+
+    to {
+        top: 520px;
+        left: 30%;
+        opacity: 1;
+    }
+}
+
+
+
+
+
+
+

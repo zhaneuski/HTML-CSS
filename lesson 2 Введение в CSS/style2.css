@@ -1,0 +1,36 @@
+.header {
+    text-align: center;
+}
+.opacity1 {
+    color: rgba(0, 0, 0, 0.8)
+}
+.opacity2 {
+    color: rgba(0, 0, 0, 0.7)
+}
+.opacity3 {
+    color: rgba(0, 0, 0, 0.6)
+}
+.opacity4 {
+    color: rgba(0, 0, 0, 0.5)
+}
+.opacity5 {
+    color: rgba(0, 0, 0, 0.3)
+}
+.bold {
+    font-weight: bolder;
+}
+#header2 {
+    font-style: italic;
+    font-size: 1.3rem;
+}
+#header3 {
+    font-size: 0.8rem;
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+}
+#header {
+    font-size: 2rem;
+}
+body {
+    font-family: sans-serif;
+}

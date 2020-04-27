@@ -1,0 +1,30 @@
+body {
+    font-family: sans-serif;
+}
+
+h1 {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.first {
+    list-style-type: upper-roman;
+}
+
+.second {
+    list-style-type: decimal;
+}
+
+.third {
+    list-style-type: lower-latin;
+}
+
+li {
+     font-weight: bolder;
+     margin: 3px;
+ }
+
+span {
+    color: blue;
+    font-weight: normal;
+}

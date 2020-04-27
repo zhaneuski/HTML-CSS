@@ -1,0 +1,46 @@
+body {
+    font-family: sans-serif;
+}
+
+#first-li {
+    margin-top: 1.5rem;
+}
+
+
+#seasons {
+    font-weight: bolder;
+    }
+
+ul {
+    list-style: none;
+    
+}
+
+.Seasons::before {
+    content: "> ";
+    font-weight: bolder;
+}
+
+.winter {
+    list-style-image: url(icons/winter_16.png);
+    margin-left: 50px;
+    
+}
+
+.spring {
+    list-style-image: url(icons/spring_16.png);
+    margin-left: 50px;
+}
+
+.summer {
+    list-style-image: url(icons/summer_16.png);
+    margin-left: 50px;
+}
+
+.autumn {
+    list-style-image: url(icons/autumn_16.png);
+    margin-left: 50px;
+}
+
+
+

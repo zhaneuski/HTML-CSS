@@ -1,0 +1,110 @@
+body {
+    font-family: sans-serif;
+    margin: 50 0px;
+    width: 100%;
+}
+
+#list {
+    width: 100%;
+    margin: 0 200px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    padding: 0 0;
+}
+
+li {
+    background-color: darkolivegreen;
+    width: 128px;
+    height: 32;
+    border: 1px solid rgb(39, 49, 21);
+    color: white;
+    text-align: center;
+    padding: 5px 0;
+}
+
+#first-list > li {
+    border-right: none;
+}
+
+#first-list li:last-child {
+    border-right: 1px solid rgb(39, 49, 21);
+}
+
+#men {
+    position: absolute;
+    top: 46px;
+    left: 337px;
+    border-top: none;
+    opacity: 0;
+    z-index: -1;
+}
+
+#women {
+    position: absolute;
+    top: 75px;
+    left: 337px;
+    border-top: none;
+    opacity: 0;
+    z-index: -1;
+}
+
+#kids {
+    position: absolute;
+    top: 104px;
+    left: 337px;
+    border-top: none;
+    opacity: 0;
+    z-index: -1;
+}
+
+#dress {
+    position: absolute;
+    left: 129px;
+    top: -1px;
+    border-left: none;
+    opacity: 0;
+    z-index: -2;
+}
+
+#pants {
+    position: absolute;
+    left: 129px;
+    top: 29px;
+    border-left: none;
+    border-top: none;
+    opacity: 0;
+    z-index: -2;
+}
+
+#shoes {
+    position: absolute;
+    left: 128px; 
+    top: 58px;
+    border-top: none;
+    opacity: 0;
+    z-index: -2;
+}
+
+li:hover {
+    background-color: rgb(39, 49, 21);
+    transition-duration: 1s;
+}
+
+#Categories:hover > ul > li{
+    opacity: 1;
+    z-index: 1;
+}
+
+#women:hover > ul > li{
+    opacity: 1;
+    z-index: 1;
+}
+
+p {
+    position: relative;
+    top: 10px;
+    margin-left: 200px;
+}

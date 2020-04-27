@@ -1,0 +1,74 @@
+
+#clock {
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    position: absolute;
+    left: 40%;
+    top: 200px;
+    border-radius: 100%;
+    background-color: darkgray;
+}
+
+#point {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color: black;
+    position: absolute;
+    left:95px;
+    top: 95px;
+}
+
+ #min {
+     width: 2px;
+     height: 80px;
+     background-color: black;
+     position: absolute;
+     left: 99px;
+     top: 20px;
+     animation-name: min;
+     animation-duration: 10s;
+     animation-iteration-count: infinite;
+     animation-fill-mode: forwards;
+     animation-timing-function: linear;
+ }
+
+ @keyframes min {
+     from {
+        left: 99px;
+        top: 20px;
+        transform-origin: bottom center;
+     }
+
+     to {
+         transform: rotateZ(360deg);
+         transform-origin: bottom center;
+     }
+ }
+
+ #hr {
+    width: 2px;
+    height:40px;
+    background-color: black;
+    position: absolute;
+    left: 99px;
+    top: 60px;
+    animation-name: hr;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+ }
+ @keyframes hr {
+    from {
+       left: 99px;
+       top: 60px;
+       transform-origin: bottom center;
+    }
+
+    to {
+        transform: rotateZ(360deg);
+        transform-origin: bottom center;
+    }
+}

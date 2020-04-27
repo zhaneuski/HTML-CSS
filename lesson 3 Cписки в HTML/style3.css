@@ -1,0 +1,41 @@
+body {
+    color: white;
+    width: 950px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+h2 {
+    font-size: 1rem;
+    font-weight: normal;
+    padding-left: 55px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #0e494e;
+    margin: 20px 0 0 0;
+}
+
+.text1 {
+    background-color: #297178;
+    margin: 0;
+    padding: 10px 20px;
+    text-align: justify;
+}
+
+sup {
+    color: crimson;
+}
+
+span {
+    font-weight: bolder;
+}
+
+.text2 {
+    font-size: 0.8rem;
+    background-color: white;
+    color: black;
+    margin-top: 10px;
+    text-align: justify;
+}

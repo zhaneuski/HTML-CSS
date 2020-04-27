@@ -1,0 +1,43 @@
+.box {
+    border: 1px solid rgba(0, 0, 0, 0.87);
+    margin: 2rem;
+}
+
+#bar {
+    border: 1px solid rgba(0, 0, 255, 0.87);
+    height: 24px;
+}
+
+#bar div {
+    height: 24px;
+    font-size: 0.75rem;
+    line-height: 200%;
+}
+
+#bar div:first-child {
+    float: left;
+    padding-left: 1rem;
+    background-color: lightcyan;
+    width: 40%;
+}
+
+#bar div:last-child {
+    float: right;
+    padding-right: 1rem;
+}
+
+#btn button {
+    background-color: darkblue;
+    color: white;
+    border: none;
+    width: 100%;
+    padding: 0.5rem 0;
+}
+
+#image img {
+    width: 100%;
+}
+
+#load, #image, #btn {
+    margin: 1rem;
+}

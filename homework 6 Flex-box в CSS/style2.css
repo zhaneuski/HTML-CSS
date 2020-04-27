@@ -1,0 +1,128 @@
+body {
+    font-family: sans-serif;
+    background-color: rgb(221, 221, 221);
+
+}
+
+h3 {
+    font-size: 1rem;
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+.time1 {
+    font-size: 0.7rem;
+    text-align: right;
+    color: gray;
+}
+.time2 {
+    font-size: 0.7rem;
+    text-align: left;
+    color: gray;
+}
+
+.mess1, .mess2, .mess3, .mess4, .mess5, .mess6 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 1rem;
+}
+
+.anie1, .anie2, .anie3 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.jack1, .jack2, .jack3 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.container {
+    padding-top: 4rem;
+    width: 80vw;
+    margin: 0 auto;
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: 2fr 5fr 2fr;
+    grid-template-areas: 
+    "anie1 mess1 ."
+    ". mess2 jack1"
+    "anie2 mess3 ."
+    ". mess4 jack2"
+    "anie3 mess5 ."
+    ". mess6 jack3"
+    ;
+}
+
+.anie1 {
+    grid-area: anie1;
+}
+
+.anie2 {
+    grid-area: anie2;
+}
+
+
+.anie3 {
+    grid-area: anie3;
+}
+
+.jack1 {
+    grid-area: jack1;
+}
+
+.jack2 {
+    grid-area: jack2;
+}
+
+.jack3 {
+    grid-area: jack3;
+}
+
+.mess1 {
+    grid-area: mess1;
+    background-color: hotpink;
+    border-radius: 20px 20px 20px 0;
+    padding: 1rem;
+}
+
+.mess2 {
+    grid-area: mess2;
+    background-color: rgb(101, 153, 202);
+    border-radius: 20px 20px 0 20px;
+    padding: 1rem;
+}
+
+.mess3 {
+    grid-area: mess3;
+    background-color: hotpink;
+    border-radius: 20px 20px 20px 0;
+    padding: 1rem;
+}
+
+.mess4 {
+    grid-area: mess4;
+    background-color: rgb(101, 153, 202);
+    border-radius: 20px 20px 0 20px;
+    padding: 1rem;
+}
+
+.mess5 {
+    grid-area: mess5;
+    background-color: hotpink;
+    border-radius: 20px 20px 20px 0;
+    padding: 1rem;
+}
+
+.mess6 {
+    grid-area: mess6;
+    background-color: rgb(101, 153, 202);
+    border-radius: 20px 20px 0 20px;
+    padding: 1rem;
+}

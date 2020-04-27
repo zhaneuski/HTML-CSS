@@ -1,0 +1,55 @@
+
+body {
+    font-family: sans-serif;
+    margin: 50px 50px;
+}
+
+h1 {
+    font-size: 1.5rem;
+}
+
+div {
+    width: 500px;
+}
+
+ul {
+    list-style-type: none;
+    list-style-position: inside;
+    padding-left: 0;
+}
+
+li:nth-child(odd) {
+    background-color: #a5ccda;
+    list-style-image: url(icons/unchecked_16.png);
+    padding-left: 35px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+li:nth-child(even) {
+    background-color: #b2dfed;
+    list-style-image: url(icons/unchecked_16.png);
+    padding-left: 35px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#second, #fifth, #eleventh {
+    background-color: #e2e2e2;
+    list-style-image: url(icons/checked_16.png);
+}
+
+span {
+    color: rgb(172, 14, 14);
+    margin-left: 10px;
+    font-size: 1.2rem;
+}
+
+.line {
+    text-decoration: line-through;
+    color: black;
+    font-size: 1rem;
+    margin-left: 0;
+}
+
+

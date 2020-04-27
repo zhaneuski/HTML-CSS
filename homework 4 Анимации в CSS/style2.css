@@ -1,0 +1,45 @@
+#first {
+    background-color: white;
+    width: 500px;
+    height: 200px;
+    position: absolute;
+    left: 400px;
+    top: 200px;
+    perspective: 800px;
+    
+}
+
+p {
+    position: absolute;
+    left: 220px;
+    top: 75px;
+    z-index: -1;
+}
+
+#div1 {
+    position: absolute;
+    height: 196px;
+    width: 246px;
+    background-color: purple;
+    border: 2px solid darkslateblue;
+}
+
+#div2 {
+    position: absolute;
+    height: 196px;
+    width: 246px;
+    background-color: purple;
+    left: 250px;
+    border: 2px solid darkslateblue;
+}
+
+#first:hover #div2 {
+    transform: rotateY(-60deg);
+    transition-duration: 2s;
+}
+
+#first:hover #div1 {
+    transform: rotateY(60deg);
+    transition-duration: 2s;
+
+}

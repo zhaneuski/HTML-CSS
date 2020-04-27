@@ -1,0 +1,50 @@
+body {
+    font-size: 2rem;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+tr td:first-child {
+    padding: 25px 40px;
+    background-color: aqua;
+    position: sticky;
+    left: 1px;
+}
+
+tr td {
+    padding: 25px 45px;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: rgb(199, 198, 198);
+}
+
+tbody tr:nth-child(even) {
+    background-color: rgb(191, 186, 231);
+}
+
+
+thead tr th {
+    padding: 25px 35px;
+    background-color: aqua;
+    position: sticky;
+    top: 0px;
+}
+
+tr th:first-child {
+    z-index: 1;
+    position: sticky;
+    left: 0;
+    top: 0;
+}
+
+
+
+
+
+
+

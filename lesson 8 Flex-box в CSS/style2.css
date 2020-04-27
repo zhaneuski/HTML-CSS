@@ -1,0 +1,50 @@
+
+
+body {
+    width: 100%;
+    font-family: sans-serif;
+    margin: 0 0;
+}
+
+#container {
+    margin: 2rem auto;
+    color: white;
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    min-width: 600px;
+    max-width: 1000px;
+}
+
+#link {
+    background-color: rgb(155, 158, 158);
+}
+
+#content {
+    background-color: rgb(55, 56, 56);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.content1 {
+    padding: 2rem 1rem;
+}
+
+#container #link {
+    align-self: start;
+}
+
+#link div {
+    padding: 1rem 1.5rem;
+}
+
+.tab:first-child {
+    background-color: rgb(55, 56, 56);
+}
+
+.tab:hover {
+    background-color: rgb(55, 56, 56);
+}
+
+img {
+    width: 100%;
+}

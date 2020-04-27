@@ -1,0 +1,14 @@
+.black {
+    background-color: lightsteelblue;
+    font-size: 2rem;
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
+}
+
+.red {
+    background-color: lightsteelblue;
+    font-size: 2rem;
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
+    color: red;
+}

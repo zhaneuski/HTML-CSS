@@ -1,0 +1,13 @@
+h1 {
+    text-align: center;
+    color: purple;
+}
+
+h2, h3 {
+    color: cornflowerblue;
+    font-size: 1rem;
+}
+
+#italic {
+    font-style: italic;
+}

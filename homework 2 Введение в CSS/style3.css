@@ -1,0 +1,34 @@
+body {
+    font-family: sans-serif;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+.HTML {
+    font-weight: bold;
+}
+
+code {
+    color: red;
+    font-size: 1.3rem;
+}
+
+.italic {
+    font-style: italic;
+}
+
+pre {
+    background-color: silver;
+    color: red;
+}
+
+.tags {
+    background-color: rgb(212, 211, 211);
+    color: teal;
+}
+
+.code {
+    color: black;
+}

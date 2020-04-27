@@ -1,0 +1,28 @@
+body {
+    font-family: sans-serif;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+h1 {
+    font-size: 1rem;
+}
+
+dt {
+    font-style: italic;
+}
+
+.gray {
+    color: gray;
+}
+
+.blue {
+    color: blue;
+}
+ ul {
+     list-style-type: decimal;
+ }
+
+ .bold {
+     font-weight: bold;
+ }

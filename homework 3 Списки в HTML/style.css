@@ -1,0 +1,39 @@
+
+body {
+    color: white;
+    font-family: sans-serif;
+}
+
+#div1 {
+    background-color: #ed9eae;
+    width: 400px;
+    height: 200px;
+}
+
+ul {
+    position: relative;
+    list-style-type: decimal;
+    list-style-position: inside;
+    padding-left: 0;
+    width: 360px;
+    left: 20px;
+    top: 10px;
+}
+
+.div2 {
+    background-color: #c66376;
+    margin-bottom: 5px;
+    height: 32px;
+}
+
+li {
+    height: 18px;
+    padding-left: 8px;
+    padding-top: 6px;
+}
+ span {
+     background-color: #9e354a;
+     font-size: 18px;
+     color: white;
+     padding: 6px 10px;
+ }
